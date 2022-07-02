@@ -1,0 +1,10 @@
+header nav .b
+{
+  border-bottom: 5px solid rgb(39, 93, 255);
+}
+.con
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
