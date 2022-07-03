@@ -70,8 +70,9 @@ header nav .a
   position: sticky;
   top: 3.5em;
 }
-.rightside h2
+.rightside h1
 {
+  font-size: 1.5em;
   margin-bottom: .5em;
 }
 .description span
@@ -92,8 +93,9 @@ header nav .a
   width: 25em;
   margin-top: -2.5em;
 }
-.leftside h1
+.leftside h2
 {
+  font-size: 1.16em;
   margin-bottom: .5em;
 }
 .topics
