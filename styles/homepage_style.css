@@ -70,9 +70,9 @@ header nav .a
   position: sticky;
   top: 3.5em;
 }
-.rightside h1
+.rightside h2
 {
-  margin-bottom: 1em;
+  margin-bottom: .5em;
 }
 .description span
 {
@@ -239,6 +239,10 @@ header nav .a
     margin-left: .5em;
     padding: 0 .7em;
   }
+  .rightside
+  {
+    height: 40em;
+  }
 }
 
 @media (max-width: 610px)
@@ -256,7 +260,7 @@ header nav .a
   }
   .rightside
   {
-    height: 37em;
+    height: 40em;
   }
   .article img
   {
