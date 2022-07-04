@@ -2,9 +2,140 @@ header nav .b
 {
   border-bottom: 5px solid rgb(39, 93, 255);
 }
-.con
+header nav
 {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.con
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+h1
+{
+  margin-right: .5em;
+  margin-bottom: .5em;
+}
+.newscard
+{
+  height: 17em;
+  width: 18em;
+  margin-bottom: 3em;
+  background-color: azure;
+  border-radius: 5px;
+  box-shadow: 5px 5px 30px rgba(128, 128, 128, 0.438);
+  overflow: hidden;
+  transition: .5s;
+}
+.newscard:hover
+{
+  transform: scale(1.031);
+  transition: .5s;
+}
+.newscard p
+{
+  margin-top: -10px;
+  font-size: .8em;
+  font-weight: 500;
+  padding: .5em;
+}
+.newscard span
+{
+  float: left;
+}
+.newscard span a
+{
+  text-decoration: none;
+  font-weight: bold;
+  color: royalblue;
+  transition: .3s;
+}
+.newscard span a:hover
+{
+  color: navy;
+  transition: .3s
+}
+.newscard img
+{
+  height: 11em;
+  width: 100%;
+}
+
+@media (max-width: 1250px)
+{
+  .con
+  {
+    flex-direction: column;
+  }
+  h1
+  {
+    text-align: center;
+  }
+  .newscard
+  {
+    width: 23em;
+  }
+}
+
+@media (max-width: 750px)
+{
+  header nav a
+  {
+    margin-left: .3em;
+    padding: 0 .5em;
+  }
+}
+
+@media (max-width: 610px)
+{
+  header nav
+  {
+    flex-direction: column;
+  }
+  header nav a
+  {
+    font-size: .7em;
+    line-height: 1.8em;
+  }
+  .mediastyle2
+  {
+    margin-top: -5px;
+  }
+}
+
+@media (max-width: 500px)
+{
+  .newscard
+  {
+    width: 18em;
+  }
+}
+
+@media (max-width: 400px)
+{
+  .newscard
+  {
+    width: 15em;
+  }
+  .newscard img
+  {
+    height: 10em;
+  }
+  h1
+  {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 320px)
+{
+  body
+  {
+    font-size: 17.5px;
+  }
 }
