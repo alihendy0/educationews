@@ -2,13 +2,17 @@ header nav .a
 {
   border-bottom: 5px solid rgb(39, 93, 255);
 }
-.mediastyle1
+header nav
 {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.mediastyle2
+header.resize
 {
-  display: inline-block;
+  background-color: aliceblue;
+  font-size: .9em;
+  height: 70px;
 }
 #preloader
 {
@@ -175,6 +179,15 @@ header nav .a
   {
     flex-direction: column;
   }
+  
+header.resize
+{
+  height: 63px;
+}
+header
+{
+  height: 70px;
+}
   .con img
 {
   height: 23em;
@@ -236,10 +249,10 @@ header nav .a
 @media (max-width: 700px)
 {
 
-  header nav a 
+  header nav a
   {
-    margin-left: .5em;
-    padding: 0 .7em;
+    margin-left: .4em;
+    padding: 0 .6em;
   }
   .rightside
   {
@@ -264,9 +277,10 @@ header nav .a
   {
     height: 38em;
   }
-  header nav a 
+  header nav a
   {
-    font-size: 16px;
+    font-size: .84em;
+    line-height: 1.84em;
   }
   .article p
   {
@@ -276,22 +290,14 @@ header nav .a
 
 @media (max-width: 550px)
 {
-
-  header nav 
+  /* header nav
   {
-    display: flex;
     flex-direction: column;
-    align-items: center;
-  }
-  header nav a 
-  {
-    line-height: 1.8em;
-    font-size: 14px;
   }
   header .mediastyle2
   {
     margin-top: -5px;
-  }
+  }  */
   .rightside
   {
     margin-top: 1em;
@@ -300,17 +306,29 @@ header nav .a
 
 }
 
+@media (max-width: 500px)
+{
+   header nav
+  {
+    flex-direction: column;
+  }
+  header .mediastyle2
+  {
+    margin-top: -5px;
+  }
+}
+
 @media (max-width: 465px)
 {
   .imgcontainer img
   {
-    height: 17em;
-    width: 17em;
+    height: 16em;
+    width: 16em;
   }
   .spin
   {
-    width: 17em;
-    height: 17em;
+    width: 16em;
+    height: 16em;
   }
   .article img
   {
@@ -337,6 +355,11 @@ header nav .a
     height: 15em;
     width: 15em;
   }
+  .spin
+  {
+    width: 15em;
+    height: 15em;
+  }
   .rightside
   {
     font-size: .8em;
@@ -347,7 +370,7 @@ header nav .a
 {
   header nav a 
   {
-    font-size: 12px;
+    font-size: .7em;
   }
   .mediastyle3
   {

@@ -2,6 +2,11 @@ header nav .b
 {
   border-bottom: 5px solid rgb(39, 93, 255);
 }
+header.resize
+{
+  background-color: aliceblue;
+  font-size: .9em;
+}
 header nav
 {
   display: flex;
@@ -93,23 +98,32 @@ h1
 
 @media (max-width: 610px)
 {
-  header nav
+  /* header nav
   {
     flex-direction: column;
   }
+   */
   header nav a
   {
-    font-size: .7em;
+    font-size: .8em;
     line-height: 1.8em;
+  }
+  /* .mediastyle2
+  {
+    margin-top: -5px;
+  } */
+}
+
+@media (max-width: 500px)
+{
+  header nav
+  {
+    flex-direction: column;
   }
   .mediastyle2
   {
     margin-top: -5px;
   }
-}
-
-@media (max-width: 500px)
-{
   .newscard
   {
     width: 18em;
@@ -118,6 +132,10 @@ h1
 
 @media (max-width: 400px)
 {
+  header nav a
+  {
+    font-size: .7em;
+  }
   .newscard
   {
     width: 15em;
