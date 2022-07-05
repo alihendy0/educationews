@@ -6,6 +6,7 @@ header.resize
 {
   background-color: aliceblue;
   font-size: .9em;
+  transition: .5s;
 }
 nav
 {

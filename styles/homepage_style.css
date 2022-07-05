@@ -13,6 +13,7 @@ header.resize
   background-color: aliceblue;
   font-size: .9em;
   height: 70px;
+  transition: .5s;
 }
 #preloader
 {
