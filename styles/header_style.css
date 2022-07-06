@@ -52,3 +52,22 @@ header nav a:hover
   background-color: rgb(39, 93, 255);
   transition: .7s;
 }
+
+::-webkit-scrollbar
+{
+  width: 1em;
+}
+::-webkit-scrollbar-track
+{
+  background-color: skyblue;
+}
+::-webkit-scrollbar-thumb
+{
+  background: teal;
+  border: 3px solid skyblue;
+  border-radius: 40px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+  background-color: rgb(0, 100, 100);
+}

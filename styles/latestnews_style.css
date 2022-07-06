@@ -29,6 +29,7 @@ h1
 }
 .newscard
 {
+  position: relative;
   height: 17em;
   width: 18em;
   margin-bottom: 3em;
@@ -42,6 +43,19 @@ h1
 {
   transform: scale(1.031);
   transition: .5s;
+}
+.date
+{
+  position: absolute;
+  top: .5em;
+  right: .5em;
+  border-radius: 5px;
+  padding: 0 .5em;
+  font-size: .7em;
+  opacity: .9;
+  background-color: azure;
+  font-weight: 600;
+  color: black;
 }
 .newscard p
 {

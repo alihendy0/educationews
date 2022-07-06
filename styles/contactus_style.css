@@ -8,6 +8,10 @@ header.resize
   font-size: .9em;
   transition: .5s;
 }
+.mediastyle1
+{
+  padding-bottom: 5px;
+}
 nav
 {
   display: flex;

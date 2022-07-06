@@ -2,6 +2,12 @@ header nav .a
 {
   border-bottom: 5px solid rgb(39, 93, 255);
 }
+header.resize
+{
+  background-color: aliceblue;
+  font-size: .9em;
+  transition: .5s;
+}
 .fullnews
 {
   width: 100%;
@@ -43,4 +49,103 @@ header nav .a
 {
   transform: scale(1.031);
   transition: .5s;
+}
+
+@media (max-width: 1050px)
+{
+  .fullnews
+  {
+    flex-direction: column;
+  }
+  .image
+  {
+    width: 50%;
+  }
+  .text
+  {
+    width: 85%;
+    height: auto;
+  }
+}
+
+@media (max-width: 750px)
+{
+  .image
+  {
+    width: 70%;
+    height: 15em;
+  }
+  .text
+  {
+    font-size: .9em;
+  }
+  .tableimage
+  {
+    width: 24em;
+    height: 39em;
+  }
+}
+
+@media (max-width: 550px)
+{
+  .image
+  {
+    height: 10em;
+  }
+  .text
+  {
+    font-size: .8em;
+  }
+  .tableimage
+  {
+    width: 19em;
+    height: 34em;
+  }
+}
+
+@media (max-width: 400px)
+{
+  header nav a
+  {
+    font-size: .7em;
+  }
+  .text
+  {
+    font-size: .7em;
+  }
+  .image
+  {
+    width: 80%;
+  }
+  .tableimage
+  {
+    width: 16em;
+    height: 31em;
+  }
+}
+
+@media (max-width: 340px)
+{
+  .image
+  {
+    height: 8em;
+  }
+  .tableimage
+  {
+    width: 13em;
+    height: 26em;
+  }
+}
+
+@media (max-width: 290px)
+{
+  header nav a
+  {
+    font-size: .6em;
+  }
+  .tableimage
+  {
+    width: 12em;
+    height: 25em;
+  }
 }
