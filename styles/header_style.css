@@ -39,15 +39,15 @@ header nav a
   text-decoration: none;
   color: black;
   margin-left: 1em;
-  padding: 0 1em;
   font-size: 1em;
   font-weight: bold;
   line-height: 2.5em;
-  border-radius: 1.5em;
   transition: .7s;
 }
 header nav a:hover
 {
+  padding: 0 1em;
+  border-radius: 1.5em;
   color: whitesmoke;
   background-color: rgb(39, 93, 255);
   transition: .7s;

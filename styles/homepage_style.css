@@ -1,6 +1,11 @@
 header nav .a 
 {
+  border-radius: 0px;
   border-bottom: 5px solid rgb(39, 93, 255);
+}
+header nav .a:hover
+{
+  border-radius: 1.5em;
 }
 header nav
 {
@@ -291,14 +296,10 @@ header
 
 @media (max-width: 550px)
 {
-  /* header nav
+  header nav a
   {
-    flex-direction: column;
+    padding: 0 .4em;
   }
-  header .mediastyle2
-  {
-    margin-top: -5px;
-  }  */
   .rightside
   {
     margin-top: 1em;
@@ -351,6 +352,10 @@ header
   {
     height: 50em;
   }
+  header nav a
+  {
+    padding: 0 .2em;
+  }
   .imgcontainer img
   {
     height: 15em;
@@ -402,6 +407,7 @@ header
   header nav a
   {
     margin-left: .1em;
+    padding: 0 .1em;
   }
   .mediastyle3
   {
