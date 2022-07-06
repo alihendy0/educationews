@@ -18,6 +18,7 @@ header nav
 {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding: 0 5%;
@@ -98,7 +99,9 @@ h1
   }
   .newscard
   {
+    height: auto;
     width: 23em;
+    padding-bottom: .5em;
   }
 }
 
@@ -153,7 +156,7 @@ h1
   }
   .newscard
   {
-    width: 15em;
+    width: 14em;
   }
   .newscard img
   {
