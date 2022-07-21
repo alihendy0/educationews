@@ -2,12 +2,6 @@ header nav .a
 {
   border-bottom: 5px solid rgb(39, 93, 255);
 }
-header.resize
-{
-  background-color: aliceblue;
-  font-size: .9em;
-  transition: .5s;
-}
 .fullnews
 {
   width: 100%;

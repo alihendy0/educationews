@@ -13,13 +13,6 @@ header nav
   flex-direction: row;
   align-items: center;
 }
-header.resize
-{
-  background-color: aliceblue;
-  font-size: .9em;
-  height: 70px;
-  transition: .5s;
-}
 #preloader
 {
   background: white url(../images/loader.gif) no-repeat center center;
